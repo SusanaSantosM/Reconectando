@@ -9,6 +9,7 @@ Luego añadimos nuestro correo y usuario de nuestro github al repositorio local.
  - git commit -M "subimos el archivo a github"
  - git config --global user.email "ssantosmallqui@danielcastealo.org"
  - git config --global user.name "SusanaSantosM"
+ - git config --global credential.helper 'cache --timeout-600'
  - git branch -M main
  - git remote add origin https://github.com/SusanaSantosM/Reconectando.git
  - git push -u origin main
